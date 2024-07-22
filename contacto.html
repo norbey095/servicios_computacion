@@ -1,0 +1,28 @@
+<html>
+	<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" href="contacto.css">
+    </head>
+    <body>
+        <form class="form" method="post" action="nos_caracteriza.php">
+            <h2>Contactanos</h2>
+            <p type="Nombre:"><input placeholder="Nombre completo..." required=""></input></p>
+            <p type="Correo:"><input placeholder="Ingrese su correo..." required=""></input></p>
+            <p type="Mensaje:"><input placeholder="Dejanos tu mensaje..." required=""></input></p>
+            <button  type= "submit" onclick="alertaExitoso()">Enviar mensaje 
+                <script>
+                    function alertaExitoso(){
+                        alert("Mensaje enviado con exito");
+                    }
+                </script>
+            </button>
+            <div>
+            <span class="fa fa-phone"></span>3005676543
+            <span class="fa fa-envelope-o"></span> reparacionesteclayer@gmail.com
+            </div>
+        </form>
+        <form method="post" action="nosotros.php">
+            <input  type="submit" value="Regresar" style=" padding: .380rem .80rem;  border: 2px solid #007bff;  border-radius: .25rem;  color: #007bff; transition: color .15s ease-in-out;  background-color: color .15s ease-in-out;">
+        </form>
+    </body>
+</html>
